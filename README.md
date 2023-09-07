@@ -8,3 +8,5 @@ Base JS configuration files to provide consistency across all repositories.
 * .gitignore - Set to ignore all extra Yarn files i.e. error logs
 * README - 
 * .yarnrc.yml - To turn off Yarn Berry PnP setup, npm registry
+* .npmrc - set to save exact version
+* .nvmrc - locking in the node version for the project
