@@ -1,5 +1,14 @@
+# IDE
 .idea
+.DS_Store
 
+node_modules
+
+# Compiler
+/dist
+/lib
+
+# Package Manager
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
@@ -11,3 +20,14 @@
 # Documentation here: https://yarnpkg.com/features/zero-installs
 !.yarn/cache
 #.pnp.*
+
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Monorepo Manager
+.turbo
